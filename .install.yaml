@@ -1,0 +1,14 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+- clean: ['~']
+- link:
+    ~/.gitconfig: git/.gitconfig
+    ~/.config/nvim: nvim
+    ~/.oh-my-zsh/custom: zsh/custom
+    ~/.zshrc:
+      force: true
+      path: zsh/.zshrc
+    ~/.gnupg/gpg.conf: gpg/gpg.conf
+    ~/.gnupg/gpg-agent.conf: gpg/gpg-agent.conf
