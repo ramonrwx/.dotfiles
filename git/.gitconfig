@@ -1,0 +1,33 @@
+[user]
+  name = Ramon Rodrigues
+  email = ramonrwx@gmail.com
+  signingkey = ramonrwx@gmail.com
+[core]
+  editor = nvim
+[color]
+  ui = true
+[color "status"]
+  added = green
+  changed = yellow
+  untracked = red
+[color "branch"]
+  current = white
+  remote = blue
+[color "diff"]
+  meta = yellow
+  old = red
+  new = green
+[pull]
+  ff = only
+[commit]
+  gpgsign = true
+[tag]
+  gpgSign = true
+[init]
+  defaultBranch = main
+[url "git@github.com:"]
+  insteadOf = gh:
+[url "git@github.com:"]
+  # insteadOf = https://github.com
+[gpg]
+  program = gpg
