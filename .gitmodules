@@ -1,0 +1,9 @@
+[submodule ".dotbot"]
+	path = .dotbot
+	url = git@github.com:anishathalye/dotbot.git
+[submodule "zsh-histdb"]
+	path = zsh/custom/plugins/zsh-histdb
+	url = git@github.com:larkery/zsh-histdb.git
+[submodule "nvim"]
+	path = nvim
+	url = git@github.com:ramonrwx/nvim.git
