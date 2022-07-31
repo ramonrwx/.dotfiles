@@ -20,9 +20,9 @@
 [pull]
   ff = only
 [commit]
-  gpgsign = true
+  gpgsign = false
 [tag]
-  gpgSign = true
+  gpgSign = false
 [init]
   defaultBranch = main
 [url "git@github.com:"]
