@@ -24,5 +24,5 @@ autoload -Uz add-zsh-hook
 source $HOME/.oh-my-zsh/custom/plugins/zsh-histdb/histdb-interactive.zsh
 bindkey '^r' _histdb-isearch
 
-export GOPATH=$HOME/go
+export GOPATH=$HOME/.go
 export PATH="$HOME/.luarocks/bin:$GOPATH/bin:$PATH"
