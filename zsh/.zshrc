@@ -13,7 +13,11 @@ export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 source $ZSH/oh-my-zsh.sh
 
 # ALIAS
-alias ls="ls --color=auto --group-directories-first"
+alias ls='lsd'
+alias l='lsd --almost-all --long'
+alias llm='lsd --timesort --long'
+alias lS='lsd --oneline --classic'
+alias lt='lsd --tree --depth=2'
 alias lg="lazygit"
 alias -g G="| grep"
 

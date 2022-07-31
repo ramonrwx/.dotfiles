@@ -6,6 +6,7 @@
 - link:
     ~/.gitconfig: git/.gitconfig
     ~/.config/nvim: nvim
+    ~/.config/lsd: lsd
     ~/.oh-my-zsh/custom: zsh/custom
     ~/.zshrc:
       force: true

@@ -1,0 +1,32 @@
+classic: false
+blocks:
+  - permission
+  # - user
+  # - group
+  - size
+  - date
+  - name
+color:
+  when: auto
+  theme: default
+date: '+%d %b %y %X'
+dereference: true
+icons:
+  when: auto
+  theme: fancy
+  separator: " "
+indicators: false
+layout: grid
+recursion:
+  enabled: false
+size: default
+permission: octal
+sorting:
+  column: name
+  reverse: false
+  dir-grouping: first
+no-symlink: false
+total-size: false
+hyperlink: auto
+symlink-arrow: ⇒
+header: false
