@@ -1,0 +1,27 @@
+gui:
+  theme:
+    lightTheme: false
+    defaultFgColor:
+      - "#D4D4D4"
+    activeBorderColor:
+      - "#5294e2"
+      - bold
+    inactiveBorderColor:
+      - "#D4D4D4"
+    optionsTextColor:
+      - "#5CB6F8"
+    selectedLineBgColor:
+      - "#373737"
+    selectedRangeBgColor:
+      - "#34495E"
+    cherryPickedCommitBgColor:
+      - "#303030"
+    cherryPickedCommitFgColor:
+      - "#5FAFD7"
+    unstagedChangesColor:
+      - "#f44747"
+git:
+  paging:
+    colorArg: always
+  commit:
+    verbose: always
