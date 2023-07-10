@@ -1,0 +1,33 @@
+classic: false
+blocks:
+  - permission
+  - size
+  - date
+  - name
+color:
+  when: auto
+  theme: default
+date: '+%d %b %X'
+dereference: true
+icons:
+  when: auto
+  theme: fancy
+  separator: " "
+indicators: false
+layout: grid
+recursion:
+  enabled: false
+size: default
+permission: octal
+ignore-globs:
+  - .git
+  - node_modules
+sorting:
+  column: name
+  reverse: false
+  dir-grouping: first
+no-symlink: false
+total-size: false
+hyperlink: auto
+symlink-arrow: ⇒
+header: false
