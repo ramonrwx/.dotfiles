@@ -7,3 +7,5 @@
 
 - link:
     ~/.gitconfig: git/.gitconfig
+    ~/.gnupg/gpg.conf: gpg/gpg.conf
+    ~/.gnupg/gpg-agent.conf: gpg/gpg-agent.conf
