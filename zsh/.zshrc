@@ -13,7 +13,7 @@ HIST_STAMPS="dm/dd/yyyy"
 
 plugins=(
   cp colored-man-pages command-not-found
-  jsontools z
+  git jsontools z
 )
 source $ZSH/oh-my-zsh.sh
 
@@ -33,7 +33,6 @@ alias lla="ls -la"
 alias tree="ls --tree --icon never"
 
 # global aliases
-alias -g G="| grep"
 alias -g A="| awk"
 alias -g G="| grep"
 alias -g GV="| grep -v"
