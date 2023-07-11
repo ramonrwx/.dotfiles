@@ -4,11 +4,10 @@
 ## Termux packages
 
 ```bash
-pkg install -y build-essential curl fd git \
-    gnupg golang iconv jq \
-    lazygit neovim nodejs openssh \
-    python ripgrep ruby sqlite \
-    zsh
+pkg install -y binutils build-essential curl fd git \
+    gnupg golang iconv jq lazygit \
+    neovim nodejs openssh python ripgrep \
+    ruby sqlite zsh
 ```
 
 ## Python packages
