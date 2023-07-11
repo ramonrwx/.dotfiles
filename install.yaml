@@ -6,6 +6,7 @@
 - clean: ['~']
 
 - link:
+    ~/.config/aichat/roles.yaml: aichat/roles.yaml
     ~/.config/lazygit: lazygit
     ~/.config/lsd: lsd
     ~/.gitconfig: git/.gitconfig
