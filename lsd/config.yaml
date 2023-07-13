@@ -7,7 +7,7 @@ blocks:
 color:
   when: auto
   theme: default
-date: '+%d %b %X'
+date: '+%d/%m/%y %H:%M'
 dereference: true
 icons:
   when: auto
@@ -17,7 +17,7 @@ indicators: false
 layout: grid
 recursion:
   enabled: false
-size: default
+size: short
 permission: octal
 ignore-globs:
   - .git
