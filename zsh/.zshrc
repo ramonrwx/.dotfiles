@@ -32,6 +32,8 @@ alias ll="ls -l"
 alias lla="ls -la"
 alias tree="ls --tree --icon never"
 
+alias bats="BATS_RUN_SKIPPED=true bats"
+
 # global aliases
 alias -g A="| awk"
 alias -g G="| grep"
