@@ -33,9 +33,5 @@
   # insteadOf = https://github.com
 [gpg]
   program = gpg
-[credential "https://github.com"]
-  helper =
-  helper = !/data/data/com.termux/files/usr/bin/gh auth git-credential
-[credential "https://gist.github.com"]
-  helper =
-  helper = !/data/data/com.termux/files/usr/bin/gh auth git-credential
+
+# vim: set filetype=gitignore :

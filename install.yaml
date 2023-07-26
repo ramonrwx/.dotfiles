@@ -9,13 +9,14 @@
     ~/.config/aichat/roles.yaml: aichat/roles.yaml
     ~/.config/lazygit: lazygit
     ~/.config/lsd: lsd
-    ~/.gitconfig: git/.gitconfig
+    ~/.gitconfig: git/gitconfig
     ~/.gnupg/gpg-agent.conf: gpg/gpg-agent.conf
     ~/.gnupg/gpg.conf: gpg/gpg.conf
     ~/.termux/colors.properties: termux/colors.properties
+    ~/.tmux.conf: tmux/tmux.conf
     ~/.oh-my-zsh/custom:
       force: true
       path: zsh/custom
     ~/.zshrc:
       force: true
-      path: zsh/.zshrc
+      path: zsh/zshrc
