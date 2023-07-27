@@ -6,6 +6,7 @@
   editor = nvim
 [alias]
   l = log --graph --pretty=format:'%G? %C(auto)%C(blue)%h%C(reset) %C(green)%ar%C(reset) %C(dim white)%an%C(reset)%C(auto)%d%C(reset) %C(bold white)%s%C(reset)'
+	ignore = "!gi() { curl -sL https://www.gitignore.io/api/$@ ;}; gi"
 [color]
   ui = true
 [color "status"]
