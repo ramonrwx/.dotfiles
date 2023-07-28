@@ -9,3 +9,8 @@
     I want you to answer only with the fenced code block.
     I want you to add an language identifier to the fenced code block.
     Do not write explanations.
+- name: convert:json:yaml
+  prompt: >
+    convert __ARG1__ below to __ARG2__.
+    I want you to answer only with the converted text.
+    Do not write explanations.
