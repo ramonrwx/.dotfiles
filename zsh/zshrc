@@ -6,7 +6,7 @@ export GPG_TTY=$TTY
 export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 
 export GOPATH=$HOME/.go
-export PATH="$GOPATH/bin:$HOME/.local/bin:$PATH"
+export PATH="$HOME/.npm-global/bin:$GOPATH/bin:$HOME/.local/bin:$PATH"
 
 ZSH_THEME="lambda-gitster"
 HIST_STAMPS="dm/dd/yyyy"
