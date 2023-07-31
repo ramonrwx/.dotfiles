@@ -49,11 +49,14 @@ alias -s go=vi
 alias -s js=vi
 alias -s lua=vi
 
-# histdb
-source $HOME/.oh-my-zsh/custom/plugins/zsh-histdb/sqlite-history.zsh
+# atuin
+eval "$(atuin init zsh --disable-up-arrow)"
 
-source $HOME/.oh-my-zsh/custom/plugins/zsh-histdb/histdb-interactive.zsh
-bindkey "^r" _histdb-isearch
+# histdb
+# source $HOME/.oh-my-zsh/custom/plugins/zsh-histdb/sqlite-history.zsh
+
+# source $HOME/.oh-my-zsh/custom/plugins/zsh-histdb/histdb-interactive.zsh
+# bindkey "^r" _histdb-isearch
 
 # direnv
 eval "$(direnv hook zsh)"
