@@ -1,0 +1,11 @@
+## enable or disable automatic sync
+auto_sync = true
+
+## which search mode to use
+search_mode = "fuzzy"
+
+## which filter mode to use
+filter_mode = "global"
+
+## which style to use
+style = "compact"
