@@ -22,6 +22,7 @@ permission: octal
 ignore-globs:
   - .git
   - node_modules
+  - venv
 sorting:
   column: name
   reverse: false
