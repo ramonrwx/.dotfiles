@@ -14,8 +14,14 @@ HIST_STAMPS="dm/dd/yyyy"
 
 plugins=(
   cp colored-man-pages command-not-found
-  git jsontools z
+  git jsontools z zsh-vi-mode
 )
+
+# The plugin will auto execute this zvm_after_init function
+function zvm_after_init() {
+  eval "$(atuin init zsh --disable-up-arrow)"
+}
+
 source $ZSH/oh-my-zsh.sh
 
 # User settings
@@ -48,9 +54,6 @@ alias -s cjs=vi
 alias -s go=vi
 alias -s js=vi
 alias -s lua=vi
-
-# atuin
-eval "$(atuin init zsh --disable-up-arrow)"
 
 # histdb
 # source $HOME/.oh-my-zsh/custom/plugins/zsh-histdb/sqlite-history.zsh
