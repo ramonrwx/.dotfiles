@@ -14,13 +14,9 @@ HIST_STAMPS="dm/dd/yyyy"
 
 plugins=(
   cp colored-man-pages command-not-found
-  git jsontools z zsh-vi-mode
+  git jsontools z
 )
 
-# The plugin will auto execute this zvm_after_init function
-function zvm_after_init() {
-  eval "$(atuin init zsh --disable-up-arrow)"
-}
 
 source $ZSH/oh-my-zsh.sh
 
@@ -63,6 +59,8 @@ alias -s lua=vi
 
 # direnv
 eval "$(direnv hook zsh)"
+
+eval "$(atuin init zsh --disable-up-arrow)"
 
 autoload -U bashcompinit
 bashcompinit
