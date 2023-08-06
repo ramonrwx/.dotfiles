@@ -4,16 +4,16 @@
 ## Termux packages
 
 ```bash
-pkg install -y binutils build-essential curl fd git \
-    gnupg golang iconv jq lazygit \
-    neovim nodejs openssh python ripgrep \
-    ruby sqlite zsh
+pkg install -y binutils atuin build-essential curl fd \
+    git gnupg golang iconv jq \
+    lazygit neovim nodejs openssh python \
+    ripgrep ruby sqlite zsh
 ```
 
 ## Python packages
 
 ```bash
-python -m pip install dotbot
+python -m pip install dotbot pre-commit httpie
 ```
 
 ### Problems
@@ -36,10 +36,10 @@ python -m pip install ruamel.yaml.clib
 [Error: EACCES: permission denied](https://stackoverflow.com/a/49714908)
 
 - Make a directory for global installations:
-  - mkdir ~/.npm-global
+  - `mkdir ~/.npm-global`
 - Configure npm to use the new directory path:
-  - npm config set prefix '~/.npm-global'
+  - npm config set prefix `~/.npm-global`
 - Open or create a ~/.profile file and add this line:
-  - export PATH=~/.npm-global/bin:$PATH
-Back on the command line, update your system variables:
-  - exec zsh
+  - `export PATH=~/.npm-global/bin:$PATH`
+  Back on the command line, update your system variables:
+  - `exec zsh`
