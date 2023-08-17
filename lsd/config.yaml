@@ -23,6 +23,7 @@ ignore-globs:
   - .git
   - node_modules
   - venv
+  - __pycache__
 sorting:
   column: name
   reverse: false
