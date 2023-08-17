@@ -24,6 +24,7 @@
   ff = only
 [commit]
   gpgsign = true
+  verbose = true
 [tag]
   gpgSign = false
 [init]
