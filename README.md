@@ -4,7 +4,7 @@
 ## Termux packages
 
 ```bash
-pkg install -y binutils aichat atuin build-essential curl \
+pkg install -y aichat atuin binutils build-essential curl \
     direnv fd git gnupg golang \
     iconv jq luarocks lazygit lsd \
     neovim nodejs openssh python ripgrep \
