@@ -26,6 +26,11 @@ python -m pip install --user \
 luarocks install luacheck
 ```
 
+## Terraform
+```bash
+take ~/.terraform.d/plugins/terraform.local/local/linode/2.5.2/android_arm64
+```
+
 ### Problems
 
 #### Python
