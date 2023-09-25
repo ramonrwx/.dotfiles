@@ -18,6 +18,12 @@ plugins=(
   git jsontools z
 )
 
+precmd() {
+  if [ -d .git -a ! -x .git/hooks/pre-commit -a -e .pre-commit-config.yaml ] && command -v pre-commit >& /dev/null; then
+    pre-commit install --hook-type pre-commit
+  fi
+}
+
 source $ZSH/oh-my-zsh.sh
 
 # User settings
