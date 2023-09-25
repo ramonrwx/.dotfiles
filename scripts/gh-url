@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import shlex
 import subprocess
 
 SSH_URL = 'git@github.com:'
@@ -12,7 +13,8 @@ def main(argv=None) -> int:
     parser = argparse.ArgumentParser()
     parser.parse_args(argv)
 
-    cmd = ('git', 'config', 'remote.origin.url')
+    cmd = shlex.split('git config remote.origin.url')
+
     try:
         remote = subprocess.check_output(cmd, encoding='UTF-8').strip()
 
