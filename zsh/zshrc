@@ -10,6 +10,9 @@ export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 export GOPATH=$HOME/.go
 export PATH="$HOME/.npm-global/bin:$HOME/.dotfiles/scripts:$GOPATH/bin:$HOME/.local/bin:$PATH"
 
+export PIP_DISABLE_PIP_VERSION_CHECK=1
+export VIRTUALENV_NO_PERIODIC_UPDATE=1
+
 ZSH_THEME="lambda-gitster"
 HIST_STAMPS="dm/dd/yyyy"
 
@@ -66,6 +69,7 @@ alias -s lua=vi
 # direnv
 eval "$(direnv hook zsh)"
 
+# atuin
 eval "$(atuin init zsh --disable-up-arrow)"
 
 autoload -U bashcompinit
