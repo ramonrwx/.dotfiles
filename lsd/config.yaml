@@ -18,7 +18,7 @@ layout: grid
 recursion:
   enabled: false
 size: short
-permission: octal
+# permission: octal
 ignore-globs:
   - .git
   - node_modules
