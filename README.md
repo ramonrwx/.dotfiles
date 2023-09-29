@@ -17,6 +17,7 @@ pkg install -y aichat atuin binutils build-essential curl \
 python -m pip install --user \
     httpie \
     pre-commit \
+    requests \
     virtualenv
 ```
 
