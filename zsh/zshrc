@@ -71,6 +71,7 @@ eval "$(direnv hook zsh)"
 
 # atuin
 eval "$(atuin init zsh --disable-up-arrow)"
+eval "$(all-repos-complete --zsh)"
 
 autoload -U bashcompinit
 bashcompinit
