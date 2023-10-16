@@ -19,7 +19,7 @@ def main(argv=None) -> int:
         response = requests.get(url)
         response.raise_for_status()
 
-        with open('.gitignore', 'w') as f:
+        with open('.gitignore', 'a') as f:
             f.write(response.text)
         print(f'.gitignore for {lang} downloaded successfully.')
 
