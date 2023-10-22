@@ -5,7 +5,9 @@ auto_sync = true
 search_mode = "fuzzy"
 
 ## which filter mode to use
-filter_mode = "global"
+filter_mode = "directory"
 
 ## which style to use
 style = "compact"
+
+workspaces = true
