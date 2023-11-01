@@ -36,4 +36,4 @@
 [gpg]
   program = gpg
 
-# vim: set filetype=gitignore :
+# vim: set filetype=gitconfig :
