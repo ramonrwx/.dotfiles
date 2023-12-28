@@ -1,7 +1,7 @@
 [user]
   name = Ramon Rodrigues
-  email = ramonrwx@gmail.com
-  signingkey = ramonrwx@gmail.com
+  email = ramon@rwxcorp.net
+  signingkey = ramon@rwxcorp.net
 [core]
   editor = nvim
 [alias]
@@ -23,7 +23,7 @@
 [pull]
   ff = only
 [commit]
-  gpgsign = true
+  gpgsign = false
   verbose = true
 [tag]
   gpgSign = false
