@@ -27,5 +27,16 @@ python -m pip install --user \
 luarocks install luacheck
 ```
 
+## install this repo
+
+```console
+git clone --recurse-submodules https://github.com/ramonrwx/.dotfiles
+```
+
+```console
+cd .dotfiles
+./install
+```
+
 ## known issues
 see [wiki](https://github.com/ramonrwx/.dotfiles/wiki/known-issues) for more details.
