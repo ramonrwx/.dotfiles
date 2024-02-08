@@ -23,7 +23,7 @@
 [pull]
   ff = only
 [commit]
-  gpgsign = false
+  gpgsign = true
   verbose = true
 [tag]
   gpgSign = false
