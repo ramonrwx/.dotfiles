@@ -13,14 +13,17 @@ main() {
 
     if [[ $remote == "$SSH_URL"* ]]; then
         remote="${remote#${SSH_URL}}"
-    fi
 
-    if [[ $remote == *"$DOT_GIT" ]]; then
-        remote="${remote%$DOT_GIT}"
-    fi
+        if [[ $remote == *"$DOT_GIT" ]]; then
+          remote="${remote%$DOT_GIT}"
+        fi
 
-    echo "https://github.com/$remote"
-    return 0
+        echo "https://github.com/$remote"
+        return 0
+    else
+        echo "$remote"
+        return 0
+    fi
 }
 
 main "$@"
