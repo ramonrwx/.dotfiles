@@ -1,29 +1,35 @@
 # .dotfiles
-> My dotfiles for termux app
+> my dotfiles for termux app
 
 ## termux packages
 
-```bash
-pkg install -y aichat atuin binutils build-essential curl \
-    direnv fd git gnupg golang \
-    iconv jq luarocks lazygit lsd \
-    neovim nodejs openssh python ripgrep \
-    ruby rust sqlite stylua zsh
+```console
+pkg install -y atuin binutils build-essential curl direnv \
+    fd git gnupg golang iconv \
+    jq luarocks lazygit lsd neovim \
+    nodejs openssh openssl openssl-tool python \
+    ripgrep ruby rust sqlite stylua \
+    zsh
 ```
 
 ## python packages
 
-```bash
+```console
 python -m pip install --user \
     httpie \
     pre-commit \
     requests \
     virtualenv
 ```
+## oh-my-zsh
+
+```console
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
 ## luarocks packages
 
-```bash
+```console
 luarocks install luacheck
 ```
 
