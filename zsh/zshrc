@@ -47,18 +47,12 @@ alias tree="ls --tree --icon never"
 alias bats="BATS_RUN_SKIPPED=true bats"
 
 # global aliases
-alias -g A="| awk"
+# alias -g A="| awk"
 alias -g G="| grep"
 alias -g GV="| grep -v"
-alias -g H="| head"
-alias -g W="| wc"
-alias -g Z="| fzf"
-
-# suffix aliases
-alias -s cjs=vi
-alias -s go=vi
-alias -s js=vi
-alias -s lua=vi
+# alias -g H="| head"
+# alias -g W="| wc"
+# alias -g Z="| fzf"
 
 # histdb
 # source $HOME/.oh-my-zsh/custom/plugins/zsh-histdb/sqlite-history.zsh
